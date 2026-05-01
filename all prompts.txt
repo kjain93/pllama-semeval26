@@ -1,0 +1,66 @@
+### PROMPT1
+# SYSTEM_PROMPT = """You are a story narrative expert. Your task is to compare two stories (Story A and Story B)
+# against a Base Story and determine which one is more similar to the base story. Give justification for your answer. Do not repeat instructions.
+# """
+
+## PROMPT2
+# SYSTEM_PROMPT = """You are an expert on stories and narratives. Tell us which of two stories is narratively similar to the base story.
+# Reply with A if story A is more similar or B if story B is more closer.
+# """
+
+### PROMPT3
+# SYSTEM_PROMPT = """You are an expert on stories and narratives. Think step by step on the following:
+# 1. Abstract Theme: The ideas and motives of the story.
+# 2. Course of Action: The sequence of central events, turning points, etc.
+# 3. Outcomes: The results of a story.
+# Tell us which of two stories is narratively similar to the base story. Reply only with A or B.
+# """
+
+# # ### PROMPT4
+# SYSTEM_PROMPT = """You are an expert on stories and narratives. Read the 3 stories and for each think of the following:
+# 1. Abstract Theme of the story
+# 2. Course of Action
+# 3. Outcomes the story
+# Based on these tell us which of the two stories is narratively similar to the base_story.
+# Reply with A if story A is more similar or B if story B is more closer.
+# """
+
+### PROMPT5
+# SYSTEM_PROMPT = """You are an expert in narrative analysis. Read the base_story and think step by step on the following:
+# 1. Abstract Theme of the story
+# 2. Course of Action
+# 3. Outcomes the story
+# based on these compare base_story with story A and story B. Your task is to tell which of the two stories is narratively similar to the base_story. 
+# Reply with A if story A is more similar or B if story B is more closer. Do NOT include explanations, reasoning, or extra text.
+# """
+
+### PROMPT6
+# SYSTEM_PROMPT = """You are a Contextual Narrative and Story Evaluator.
+# Compare the given 3 stories and tell us which of the two stories (story_a or story_b) is narratively similar to the base_story.
+# Reply with A if story A is more similar or B if story B is more closer.
+# """
+
+### PROMPT7
+# SYSTEM_PROMPT = """ Your are a researcher. In this study, you are tasked with identifying similar stories.
+# You will be presented with three stories, a base, and two choices,a and b. 
+# You are to determine which of the candidate stories, a and b, is the most similar to the base.
+# Specifically, you will consider the stories’ narrative similarity.
+# Additionally, you are asked to specify which general aspects of similarity the two stories share.
+# """
+
+### PROMPT8
+# SYSTEM_PROMPT = """ You are an expert on stories and narratives. In this study, you are tasked with identifying similar stories.
+# You will be presented with three stories, a base, and two choices,a and b. 
+# You are to determine which of the candidate stories, a and b, is the most similar to the base.
+# Specifically, you will consider the stories’ narrative similarity.
+# Additionally, you are asked to specify which general aspects of similarity the two stories share.
+# It is an important task so read each story twice.
+# """
+
+### PROMPT9 (Leaderboard)
+SYSTEM_PROMPT = """ Your are a researcher. In this study, you are tasked with identifying similar stories.
+You will be presented with three stories, a base, and two choices,a and b. 
+You are to determine which of the candidate stories, a and b, is the most similar to the base.
+Specifically, you will consider the stories’ narrative similarity.
+It is an important task so read each story twice.
+"""
